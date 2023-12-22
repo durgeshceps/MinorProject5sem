@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Poppins:wght@700&display=swap');
+*{
+    display:inline;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color:rgb(7,8,10); 
+   
+    
+}
+li, a, button {
+    font-family:  Futura,sans-serif;;
+    font-weight: 500;
+    font-size: 20px;
+    color:rgb(255,255,255);
+    text-decoration: none;
+    background-color:transparent;
+}
+header {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 10%;
+  background-color: black;
+}
+.logomo{
+cursor: pointer;
+width: 11%;
+height: 20%;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;
+
+
+}
+.navlink{
+list-style-type: none;
+}
+.navlink li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.navlink li a {
+    transition: all 0.3s ease 0s;
+
+}
+
+.navlink li a:hover {
+    color:rgb(137,141,144);
+
+}
+button{
+    padding: 9px 25px;
+    background-color:dimgrey;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover{
+    background-color:transparent;
+}
+
+ .pagu .backgro{
+    width: 100%;
+}
+.pagu{
+    background-color: black;
+    margin: 0;
+
+}
+
+ footer , .cp{
+    font-size: 20px;
+    font-family: Futura,sans-serif;
+    font-style: normal;
+    background-color: black;
+    margin: 0;
+    color: white;
+ }
+ 
+
+.mano{
+    position:absolute;
+    bottom: 50%;
+    background-color:transparent;
+    left:10% ;
+    top: 10rem;
+    margin-top: 25px;
+    list-style: none;
+    box-sizing: border-box;
+    font-size: 30px;
+    
+    font-style: normal ;
+    
+    line-height: 1.5;
+    text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+ .mens:hover{
+    color: white;
+
+    
+ }
+ #outs{
+    background-color: transparent;
+ }
+
+
+.mens{
+    color: yellow;
+    font-size: x-large;
+    font-family: Futura,sans-serif;;
+}
+
+
+
+
+
+
+
+
